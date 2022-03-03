@@ -1,0 +1,50 @@
+ h1{
+     text-align: center;
+     background-color: bisque;
+     color:  red;
+ }
+form{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+th{
+    border:  2px solid red;
+    font-size: 20px;
+    
+    padding: 10px;
+   
+}
+tr{
+    font-size: 20px;
+}
+td{
+   border: 2px solid rgb(1, 7, 6); 
+   margin: auto;
+   cursor: pointer;
+    
+}
+.data{
+    display: flex;
+    justify-content: space-around;
+     
+}
+form{
+   
+   width: 25%; 
+
+}
+input,select{
+    width: 90%;
+    height: 35px;
+    margin-bottom: 20px;
+}
+table{
+    display: block;
+    border-collapse: collapse;
+    
+}
+img{
+     height: 200px;
+     width: 99.5%;
+      
+ }
