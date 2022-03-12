@@ -1,0 +1,56 @@
+{
+  "users": [
+    {
+      "name": "Devesh Verma",
+      "age": "21",
+      "address": "Phatan ka bagg, Dhamera Adda buladshahr",
+      "salary": "45000",
+      "department": "IT",
+      "id": 1
+    },
+    {
+      "name": "Devesh Lodhi",
+      "age": "22",
+      "address": "Phatan ka bagg, Dhamera Adda buladshahr",
+      "salary": "35246",
+      "department": "Civil",
+      "married": true,
+      "id": 2
+    },
+    {
+      "name": "Akib Ali",
+      "age": "23",
+      "address": "Eta Uttar Pradesh",
+      "salary": "55000",
+      "department": "Civil",
+      "married": true,
+      "id": 3
+    },
+    {
+      "name": "Alok Kumar ll",
+      "age": "24",
+      "address": "village nagla murli distt firozabad up",
+      "salary": "600000",
+      "department": "IT",
+      "id": 4
+    },
+    {
+      "name": "Ankit Kumar",
+      "age": "22",
+      "address": "distt bagpat uttar pradesh ",
+      "salary": "7000000",
+      "department": "Mechnical",
+      "married": true,
+      "id": 5
+    },
+    {
+      "name": "Rohan Verma",
+      "age": "22",
+      "address": "Phatan ka bagg, Dhamera Adda buladshahr",
+      "salary": "658262",
+      "department": "Eletrical",
+      "married": true,
+      "id": 6
+    }
+  ]
+}
