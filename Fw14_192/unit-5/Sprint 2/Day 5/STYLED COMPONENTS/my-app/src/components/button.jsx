@@ -12,7 +12,7 @@ const Button = styled.button`
 
   color: ${props => props.primary ? "white" : ""};
   background-color: ${props => props.primary ? "blue" : ""};
-  background: ${props => props.primary ? "blue" : ""};
+ 
   
   border: ${props => props.default ? "1px solid silver" : ""};
 
@@ -25,5 +25,7 @@ const Button = styled.button`
   color: ${props => props.link ? "blue" : ""};
 
 `;
+
+
 
 export {Button}
