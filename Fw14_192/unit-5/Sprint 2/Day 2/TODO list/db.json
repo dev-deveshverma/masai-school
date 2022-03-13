@@ -1,0 +1,30 @@
+{
+  "todoItems": [
+    {
+      "title": "Scrum",
+      "purchased": false,
+      "id": 1
+    },
+    {
+      "title": "Coding",
+      "purchased": false,
+      "id": 2
+    },
+    {
+      "title": "DSA Class",
+      "purchased": false,
+      "id": 3
+    },
+    {
+      "title": "Coding Contest",
+      "purchased": false,
+      "id": 4
+    },
+    {
+      "title": "Coding Contest",
+      "purchased": false,
+      "id": 5
+    }
+     
+  ]
+}
