@@ -1,5 +1,5 @@
 
- import("./index.css")
+ import("./index.css ")
  import image from "./devesh.jpg"
  console.log(image)
  
