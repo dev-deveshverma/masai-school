@@ -1,0 +1,60 @@
+{
+    "products":[
+        {
+            "name": "Laptop",
+            "id":"0",
+            "price":"40700",
+            "img":"https://images.news18.com/ibnlive/uploads/2021/08/1628224744_hp-envy-14-laptop-1600x900.jpg",
+            "spec":"REM 8GB, processer i5"
+        },
+        {
+            "name": "Laptop 2",
+            "id":"1",
+            "price":"46000",
+            "img":"https://images.news18.com/ibnlive/uploads/2021/08/1628224744_hp-envy-14-laptop-1600x900.jpg",
+            "spec":"REM 8GB, processer i5"
+        },
+        {
+            "name": "Laptop 3",
+            "id":"2",
+            "price":"43000",
+            "img":"https://images.news18.com/ibnlive/uploads/2021/08/1628224744_hp-envy-14-laptop-1600x900.jpg",
+            "spec":"REM 8GB, processer i5"
+        },
+        {
+            "name": "Laptop 4",
+            "id":"3",
+            "price":"40050",
+            "img":"https://images.news18.com/ibnlive/uploads/2021/08/1628224744_hp-envy-14-laptop-1600x900.jpg",
+            "spec":"REM 8GB, processer i5"
+        },
+        {
+            "name": "Laptop",
+            "id":"4",
+            "price":"40700",
+            "img":"https://images.news18.com/ibnlive/uploads/2021/08/1628224744_hp-envy-14-laptop-1600x900.jpg",
+            "spec":"REM 8GB, processer i5"
+        },
+        {
+            "name": "Laptop 2",
+            "id":"5",
+            "price":"46000",
+            "img":"https://images.news18.com/ibnlive/uploads/2021/08/1628224744_hp-envy-14-laptop-1600x900.jpg",
+            "spec":"REM 8GB, processer i5"
+        },
+        {
+            "name": "Laptop 3",
+            "id":"6",
+            "price":"43000",
+            "img":"https://images.news18.com/ibnlive/uploads/2021/08/1628224744_hp-envy-14-laptop-1600x900.jpg",
+            "spec":"REM 8GB, processer i5"
+        },
+        {
+            "name": "Laptop 4",
+            "id":"7",
+            "price":"40050",
+            "img":"https://images.news18.com/ibnlive/uploads/2021/08/1628224744_hp-envy-14-laptop-1600x900.jpg",
+            "spec":"REM 8GB, processer i5"
+        }
+    ]
+}
