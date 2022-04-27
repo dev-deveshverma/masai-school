@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>throttling</title>
+    <link rel="stylesheet" href="./index.css" />
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+.main{
+    border: 2px solid;
+    margin:30px auto;
+    width: 50%;
+}
+
+.container{
+    border: 5px solid black;
+    overflow: scroll;
+    cursor: pointer;
+    height: 350px;
+}
+.container>h2{
+    height: 250px;
+    width: 100%;
+}
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <h2 style="background-color: red">This is line One</h2>
+        <h2 style="background-color: green">This is line Two</h2>
+        <h2 style="background-color: blue">This is line Three</h2>
+        <h2 style="background-color: teal">This is line Four</h2>
+        <h2 style="background-color: pink">This is line Five</h2>
+        <h2 style="background-color: firebrick">This is line Six</h2>
+        <h2 style="background-color: limegreen">This is line Seven</h2>
+      </div>
+
+      <div>
+        <p>No of times event fired :</p>
+        <p id="show-api-call-count"></p>
+
+        <p>No of times throttling executed the method :</p>
+        <p id="debounc_count"></p>
+      </div>
+    </div>
+  </body>
+</html>
+<script>
+    let timer;
+let container = document.querySelector(".container");
+container.addEventListener("scroll", () => {
+  let apiCall = document.querySelector("#show-api-call-count");
+  let apiCallCount = apiCall.innerHTML || 0;
+  apiCallCount = Number(apiCallCount) + 1;
+  apiCall.innerHTML = apiCallCount;
+  throttleFunction(normalfunction, 300);
+});
+function normalfunction() {
+  let throttle_count = document.getElementById("debounc_count");
+
+  let count = throttle_count.innerHTML || 0;
+
+  throttle_count.innerHTML = Number(count) + 1;
+}
+
+let throttleFunction = (func, delay) => {
+  if (timer) return;
+
+  timer = setTimeout(() => {
+    func();
+    timer = undefined;
+  }, delay);
+};
+</script>
